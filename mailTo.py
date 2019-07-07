@@ -1,4 +1,3 @@
-end_attachment.py
 # import necessary packages
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -11,12 +10,9 @@ parser.add_argument('fromx', help='From Email')
 parser.add_argument('password', help='Password of your email account')
 parser.add_argument('to', help='To [email] be sent')
  
-
-args = parser.parse_args() 
- 
+args = parser.parse_args()  
 #### 
- 
- 
+
 # create message object instance
 msg = MIMEMultipart()
  
@@ -46,5 +42,3 @@ server.sendmail(msg['From'], msg['To'], msg.as_string())
 server.quit()
  
 print("successfully sent email to %s:" % (msg['To']))
-
-
