@@ -3,7 +3,7 @@ nterms = 11
 n1 = 0
 n2 = 1
 count = 0 
-
+#added a comment
 # check if the number of terms is valid
 if nterms <= 0:
    print("Please enter a positive integer")
