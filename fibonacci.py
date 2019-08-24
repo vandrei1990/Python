@@ -1,4 +1,4 @@
-nterms = 11
+nterms = 110000
 # first two terms
 n1 = 0
 n2 = 1
