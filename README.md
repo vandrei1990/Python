@@ -1,3 +1,3 @@
 # Python
 
-Python scripts used for learning purposes
+Scripts used for learning purposes
